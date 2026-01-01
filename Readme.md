@@ -2,4 +2,4 @@
 2. Create blocks (~40%)
 3. Enchantment industry items (100% - complete)
 
-<img width="1024" height="1018" alt="image" src="https://github.com/user-attachments/assets/855e00e4-d859-4b73-b810-59de153566b6" />
+<img width="1024" height="1017" alt="image" src="https://github.com/user-attachments/assets/a2d04f7a-e6f8-44c5-828e-4d48d5f2f376" />
