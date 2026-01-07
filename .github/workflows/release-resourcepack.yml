@@ -52,7 +52,7 @@ jobs:
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: sR2V0LIy
-          version: "r${{ github.run_number }}"
+          version: "1.21.1_r${{ github.run_number }}"
           channel: beta
           files: ${{ env.ZIP_NAME }}
           loaders: |-
