@@ -5,6 +5,7 @@
 - `●•` [Create](https://modrinth.com/mod/create)
 - `●•` [Create: Deco](https://modrinth.com/mod/create-deco)
 - `●•` [Create: Diesel Generators](https://modrinth.com/mod/create-diesel-generators)
+- `●•` [Create: Dragons Plus](https://modrinth.com/mod/create-dragons-plus)
 - `●•` [Create: Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry/)
 - `●•` [Create: Wrapped](https://modrinth.com/mod/create-wrapped)
 
