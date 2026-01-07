@@ -51,9 +51,9 @@ jobs:
         uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          project: whimscape-x-create
-          channel: beta
+          project: sR2V0LIy
           version: "r${{ github.run_number }}"
+          channel: beta
           files: ${{ env.ZIP_NAME }}
           loaders: |-
             minecraft
