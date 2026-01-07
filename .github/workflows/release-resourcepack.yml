@@ -17,7 +17,7 @@ jobs:
 
       - name: Create resource pack zip
         run: |
-          ZIP_NAME="Whimscape-X-Create-1.20.x-1.21.1r${{ github.run_number }}.zip"
+          ZIP_NAME="Whimscape-X-Create-1.20.x-1.21.1_r${{ github.run_number }}.zip"
           zip -r "$ZIP_NAME" \
             assets/ \
             pack.mcmeta \
@@ -30,11 +30,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ github.run_number }}
+          tag_name: r${{ github.run_number }}
           release_name: Version ${{ github.run_number }} (${{ github.sha }})
-          body: |
-            Automatic build from commit ${{ github.sha }}.
-            Download the .zip and place it in your Minecraft resourcepacks folder.
+          generate_release_notes: true
           draft: false
           prerelease: false
 
