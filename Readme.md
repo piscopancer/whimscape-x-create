@@ -24,7 +24,7 @@ This is a community project, anyone can [contribute](https://github.com/piscopan
 
 <img width="1024" height="1017" alt="items" src="https://github.com/user-attachments/assets/36671d71-8adb-4858-b344-f8906399cba3" />
 
-## Contributors 👯
+## Contributors 👯‍♂️
 
 _Thanks to these guys for taking part in the development_
 
