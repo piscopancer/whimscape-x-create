@@ -1,9 +1,9 @@
 {
-   "pack": {
-      "pack_format": 18,
-      "min_format": 18,
-      "max_format": 69,
-      "supported_formats": [18, 69],
-      "description": "Whimscape RP addon for Create mod"
-   }
+  "pack": {
+    "pack_format": 18,
+    "min_format": 18,
+    "max_format": 69,
+    "supported_formats": [18, 69],
+    "description": "Whimscape addon for Create Series"
+  }
 }
