@@ -46,3 +46,16 @@ jobs:
           asset_path: ${{ env.ZIP_NAME }}
           asset_name: ${{ env.ZIP_NAME }}
           asset_content_type: application/zip
+
+      - name: Upload to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: whimscape-x-create
+          channel: beta
+          version: "r${{ github.run_number }}"
+          files: ${{ env.ZIP_NAME }}
+          loaders: |-
+            minecraft
+          game-versions: |-
+            1.21.1
