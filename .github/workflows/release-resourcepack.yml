@@ -17,7 +17,7 @@ jobs:
 
       - name: Create resource pack zip
         run: |
-          ZIP_NAME="Whimscape-x-Create-1.20.x-1.21.1_r${{ github.run_number }}.zip"
+          ZIP_NAME="Whimscape-x-Create-1.21.1_r${{ github.run_number }}.zip"
           zip -r "$ZIP_NAME" \
             assets/ \
             pack.mcmeta \

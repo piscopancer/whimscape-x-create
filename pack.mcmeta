@@ -1,9 +1,6 @@
 {
   "pack": {
-    "pack_format": 18,
-    "min_format": 18,
-    "max_format": 69,
-    "supported_formats": [18, 69],
+    "pack_format": 34,
     "description": "Whimscape addon for Create Series"
   }
 }
